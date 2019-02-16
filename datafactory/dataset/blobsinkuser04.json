@@ -1,0 +1,14 @@
+{
+	"name": "blobsinkuser04",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "store",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "openhackuser04"
+		}
+	}
+}
