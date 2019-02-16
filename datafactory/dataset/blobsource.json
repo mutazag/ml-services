@@ -1,0 +1,14 @@
+{
+	"name": "blobsource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "store",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureBlob",
+		"typeProperties": {
+			"fileName": "",
+			"folderPath": "filesopenhack"
+		}
+	}
+}
