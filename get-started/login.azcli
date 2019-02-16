@@ -1,0 +1,6 @@
+# az --version
+
+az login
+az account list -o table
+
+az account set -s 907c8efc-c2c8-4c49-a4e1-aeb880e10c88
