@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "challange1",
 	"properties": {
 		"activities": [
 			{
@@ -13,8 +13,27 @@
 					"secureInput": false
 				},
 				"typeProperties": {
+					"source": {
+						"type": "BlobSource",
+						"recursive": true
+					},
+					"sink": {
+						"type": "BlobSink"
+					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "blobsource",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "blobsinkuser04",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		]
 	}
